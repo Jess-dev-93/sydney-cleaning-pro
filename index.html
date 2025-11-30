@@ -1,13 +1,59 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sydney-cleaning-pro</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crystal Clean Sydney | Premium Home & Airbnb Cleaning</title>
+  <meta name="description" content="5-star luxury cleaning for homes, offices & Airbnbs across Sydney. Same-day service. Fully insured."/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sydney: { blue: '#00b4d8', green: '#2a9d8f', dark: '#1e293b' }
+          },
+          fontFamily: { sans: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- HERO -->
+  <section class="bg-gradient-to-br from-sydney-dark via-sydney-green to-sydney-blue text-white py-32">
+    <div class="container mx-auto px-6 text-center">
+      <h1 class="text-5xl md:text-7xl font-black mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-emerald-300">
+        Crystal Clean Sydney
+      </h1>
+      <p class="text-2xl md:text-4xl mb-10 max-w-4xl mx-auto">Luxury cleaning for homes, offices & Airbnbs • Same-day bookings • Fully insured</p>
+      
+      <div class="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto">
+        <div class="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto">
+        <a href="tel:+61412345678" class="bg-gradient-to-r from-sydney-green to-sydney-blue text-white font-bold text-2xl py-6 px-12 rounded-full hover:scale-105 transition shadow-2xl flex items-center justify-center gap-3">
+          Call 0412 345 678
+        </a>
+        <a href="#contact" class="bg-white text-sydney-dark font-bold text-2xl py-6 px-12 rounded-full hover:bg-gray-100 transition">
+          Free Quote →
+        </a>
+      </div>
+
+      <div class="mt-12 flex justify-center gap-8 flex-wrap text-lg">
+        <span>127 five-star reviews</span>
+        <span>•</span>
+        <span>10+ years in Sydney</span>
+        <span>•</span>
+        <span>Locally owned & operated</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 text-center bg-white">
+    <h2 class="text-5xl font-bold mb-6">Your first live portfolio piece is ready</h2>
+    <p class="text-2xl text-gray-600">Save this file → then run the 3 magic commands below</p>
+  </section>
+
+</body>
 </html>
