@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Crystal Clean Sydney | Premium Home & Airbnb Cleaning</title>
-  <meta name="description" content="5-star luxury cleaning for homes, offices & Airbnbs across Sydney. Same-day service. Fully insured."/>
+  <meta name="description" content="5-star luxury cleaning for homes, offices & Airbnbs across Sydney. Same-day service. Fully insured. Book now!"/>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -31,7 +31,6 @@
       <p class="text-2xl md:text-4xl mb-10 max-w-4xl mx-auto">Luxury cleaning for homes, offices & Airbnbs • Same-day bookings • Fully insured</p>
       
       <div class="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto">
-        <div class="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto">
         <a href="tel:+61412345678" class="bg-gradient-to-r from-sydney-green to-sydney-blue text-white font-bold text-2xl py-6 px-12 rounded-full hover:scale-105 transition shadow-2xl flex items-center justify-center gap-3">
           Call 0412 345 678
         </a>
@@ -50,10 +49,78 @@
     </div>
   </section>
 
-  <section class="py-20 text-center bg-white">
-    <h2 class="text-5xl font-bold mb-6">Your first live portfolio piece is ready</h2>
-    <p class="text-2xl text-gray-600">Save this file → then run the 3 magic commands below</p>
+  <!-- SERVICES -->
+  <section id="services" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-8 rounded-xl text-center hover:shadow-xl transition">
+          <h3 class="text-2xl font-bold mb-4">Home Cleaning</h3>
+          <p class="text-gray-600 mb-6">Deep clean for apartments & houses. From $150.</p>
+          <a href="#contact" class="bg-sydney-green text-white py-3 px-6 rounded-full">Book Now</a>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-xl text-center hover:shadow-xl transition">
+          <h3 class="text-2xl font-bold mb-4">Office Cleaning</h3>
+          <p class="text-gray-600 mb-6">Professional space sanitization. From $200.</p>
+          <a href="#contact" class="bg-sydney-green text-white py-3 px-6 rounded-full">Book Now</a>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-xl text-center hover:shadow-xl transition">
+          <h3 class="text-2xl font-bold mb-4">Airbnb Turnovers</h3>
+          <p class="text-gray-600 mb-6">Fast, thorough resets for hosts. From $120.</p>
+          <a href="#contact" class="bg-sydney-green text-white py-3 px-6 rounded-full">Book Now</a>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <!-- TESTIMONIALS -->
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+      <div id="testimonials" class="flex overflow-x-auto space-x-4 pb-4">
+        <div class="bg-white p-6 rounded-xl min-w-[300px] shadow-lg">
+          <p class="text-gray-600 mb-4">"Best clean I've ever had! Same-day service saved my Airbnb listing."</p>
+          <div class="flex items-center">
+            <span class="font-bold">Sarah T., Bondi</span>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-xl min-w-[300px] shadow-lg">
+          <p class="text-gray-600 mb-4">"Professional team, spotless results. Highly recommend for offices."</p>
+          <div class="flex items-center">
+            <span class="font-bold">Mike L., CBD</span>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-xl min-w-[300px] shadow-lg">
+          <p class="text-gray-600 mb-4">"Affordable and reliable. My house has never looked better!"</p>
+          <div class="flex items-center">
+            <span class="font-bold">Emma R., Manly</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-sydney-dark text-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-6">Get Your Free Quote</h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">Tell us about your space — we'll respond in under 1 hour.</p>
+      <form action="https://formspree.io/f/xjkpjokq" method="POST" class="max-w-md mx-auto space-y-4">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-4 rounded-lg" />
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-4 rounded-lg" />
+        <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-4 rounded-lg" />
+        <textarea name="message" placeholder="Tell us about your cleaning needs..." rows="4" class="w-full p-4 rounded-lg" required></textarea>
+        <button type="submit" class="bg-sydney-green text-white font-bold py-4 px-8 rounded-full w-full hover:scale-105 transition">Send Message</button>
+      </form>
+      <p class="mt-8 text-sm">Or WhatsApp us: <a href="https://wa.me/61412345678" class="underline">0412 345 678</a></p>
+    </div>
+  </section>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/61412345678?text=Hi, I'd like a cleaning quote!" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition z-50">
+    💬 Chat on WhatsApp
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>
