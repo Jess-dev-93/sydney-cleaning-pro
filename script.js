@@ -19,3 +19,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+// Mobile Menu Toggle
+const menuBtn = document.getElementById('menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+
+if (menuBtn && mobileMenu) {
+  menuBtn.addEventListener('click', () => {
+    // This toggles the 'hidden' class on and off
+    mobileMenu.classList.toggle('hidden');
+  });
+
+  // Optional: Close menu when a link is clicked
+  const mobileLinks = mobileMenu.querySelectorAll('a');
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+    });
+  });
+}
