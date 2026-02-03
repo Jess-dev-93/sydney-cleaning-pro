@@ -1,11 +1,20 @@
-# Crystal Clean Sydney 
-A high-performance landing page for a premium cleaning service.
+# Crystal Clean Sydney Portfolio 
 
-## 🚀 Features
-- **Mobile First Design:** Fully responsive layout using CSS Grid and Flexbox.
-- **Glassmorphism UI:** Modern backdrop-blur effects.
-- **High Performance:** Google Lighthouse score of 99/100 on Desktop.
-- **Accessible:** Semantic HTML with ARIA labels for screen readers.
+A high-performance landing page for a premium cleaning service in Sydney.
 
-## ⚡️ Benchmarks
-![Lighthouse Score](link-to-your-desktop-screenshot.png)
+## 🚀 Key Features
+- **Mobile First Design:** Fully responsive layout using Tailwind CSS.
+- **Glassmorphism UI:** Modern backdrop-blur effects on navigation and buttons.
+- **Fast & Accessible:** Optimized for speed and screen readers.
+
+## ⚡️ Performance Benchmarks
+I focused heavily on performance optimization for this project.
+**Result:** 99/100 Performance on Desktop.
+
+![Lighthouse Performance Score](./lighthouse-desktop-score.png)
+![Lighthouse Performance Score](./lighthouse-mobile-score.png)
+
+## 🛠 Tech Stack
+- HTML5
+- Tailwind CSS (via CDN)
+- JavaScript
